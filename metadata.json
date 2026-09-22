@@ -1,0 +1,6 @@
+{
+  "name": "ElderPay - Voice-First Banking for Everyone",
+  "description": "FraudShield Voice: A friendly AI phone agent concept that calls bank customers immediately when suspicious activity is detected, verifies identity safely, and freezes cards temporarily while keeping humans in charge.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

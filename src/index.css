@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-canvas: #F8FAFC;
+  --color-ink: #0F172A;
+}
+
+@layer base {
+  body {
+    background-color: #F8FAFC;
+    color: #0F172A;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+@keyframes voice-wave {
+  0%, 100% {
+    height: 8px;
+    opacity: 0.6;
+  }
+  50% {
+    height: 28px;
+    opacity: 1;
+  }
+}
+
+.animate-voice-wave {
+  animation: voice-wave 1.1s ease-in-out infinite;
+}
+
+@keyframes pulse-gentle {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.04);
+    opacity: 0.9;
+  }
+}
+
+.animate-pulse-gentle {
+  animation: pulse-gentle 2s ease-in-out infinite;
+}
